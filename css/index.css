@@ -50,6 +50,35 @@ table {
 * {
     box-sizing: border-box;
 }
+header{
+    border: 1px solid black;
+    display:flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px 2%;
+    
+
+}
+header img{
+margin-left: 275px;
+width:150px;
+margin-right: 50px;
+  
+}
+header nav a{
+    
+    margin-right:100px;
+    font-weight: bold;
+    font-size: 14px;
+    justify-content: flex-start;
+}
+.leggo{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    border: 1px solid black;
+}
+
 
 html, body {
     height: 100%;
@@ -70,6 +99,7 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+
 
 .top-content {
     display: flex;
@@ -111,7 +141,58 @@ p {
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .box.one {
+   
+    background: teal;
+   
+}
+.middle-content .boxes .box.two {
+   
+    background: gold;
+ 
+}
+.middle-content .boxes .box.three {
+    
+    background: cadetblue;
+}
+    
+.middle-content .boxes .box.four {
+  
+    background: coral;
+   
+}
+.middle-content .boxes .box.five {
+   
+    background: crimson;
+    
+}
+.middle-content .boxes .box.six {
+   
+    background:forestgreen;
+   
+}
+.middle-content .boxes .box.seven {
 
+    background: darkorchid;
+   
+    
+}
+.middle-content .boxes .box.eight {
+  
+    background: hotpink;
+  
+}
+.middle-content .boxes .box.nine {
+   
+    background: indigo;
+ 
+}
+.middle-content .boxes .box.ten {
+    
+    background: dodgerblue;
+    
+
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +224,19 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.lol{ 
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+.lol p{
+    margin-bottom: 20px;
+}
+div.lolz{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border: 1px dotted black;
+    
 }
