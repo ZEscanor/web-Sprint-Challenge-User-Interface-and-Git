@@ -51,7 +51,7 @@ table {
     box-sizing: border-box;
 }
 header{
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     display:flex;
     align-items: center;
     margin-bottom: 20px;
@@ -76,7 +76,7 @@ header nav a{
     display:flex;
     justify-content: center;
     margin-bottom: 25px;
-    border: 1px solid black;
+   /* border-bottom: 1px solid black;*/
 }
 
 
@@ -237,6 +237,34 @@ div.lolz{
     display: flex;
     justify-content: center;
     align-items:center;
-    border: 1px dotted black;
+   
+    
     
 }
+
+div h3{
+    margin-top: 10px;
+}
+div p{
+    margin-bottom:15px;
+}
+.learn{
+    border: 1px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+div .borderino{
+    border-bottom: 1px dashed black;
+    margin-left:10px;
+    margin-bottom:40px;
+}
+div .borderinom{
+    border-bottom: 1px dashed black;
+    margin-bottom:40px;
+}
+
